@@ -1,0 +1,26 @@
+<div class="text-layout">
+    <h1>DecimalPipe - CurrecyPipe - PercentPipe</h1>
+    <p>
+        Pipes incluidos en Angular - Common Module
+    </p>
+</div>
+
+<div class="p-grid">
+    <div class="p-col-4">
+        <p-card header="Ventas Netas" subheader="Ventas netas del presente año">
+            {{ ventasNetas | number:'1.2-2' }}
+        </p-card>
+    </div>
+
+    <div class="p-col-4">
+        <p-card header="Ventas Brutas" subheader="Ventas brutas del presente año">
+            {{ ventasBrutas | currency:'EUR':'symbol-narrow':'1.4-4' }}
+        </p-card>
+    </div>
+
+    <div class="p-col-4">
+        <p-card header="Margen de ganancia" subheader="Ganancia del presente año">
+            {{ porcentaje | percent:'2.2-2'}}
+        </p-card>
+    </div>
+</div>

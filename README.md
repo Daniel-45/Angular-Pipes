@@ -1,4 +1,8 @@
-# PipesAngular
+# Pipes Angular PrimeNG
+
+Pipes propios de Angular y pipes personalizados.
+
+Documentación [PimeNG](https://www.primefaces.org/primeng/showcase/#/setup)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
